@@ -10,6 +10,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112989666-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112989666-1');
+		</script>
 	</head>
 	<body>
 
@@ -24,7 +33,7 @@
 									Used Unity3D and SteamVR. Produced with another game programmer and 3 game designers as a school project of 4 months. 
 									I produced 4 mini games and worked on the initial structure used for the overall management of the game.</p>
 							<ul class="actions vertical">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+								<li><a href="#first" class="button big wide smooth-scroll-middle">About the background</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -33,88 +42,57 @@
 					</section>
 
 				<!-- Two -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-							<h2>Magna etiam feugiat</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions vertical">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" />
-						</div>
-					</section>
-
-					<section class="banner style1 content-align-center image-position-center">
+					<section class="banner style3 content-align-center image-position-center" id="first">
 							<div class="content">
-								<h2>Magna etiam feugiat</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>	
-								
+								<h2>Background</h2>
+								<p>As a student to become a new cop, you must be put to the test of the Cop Academy ! 
+									Challenge tests that all the most impressive cops around the world have passed with perfect scores !
+									With the other students, make 2 groups and become proud cops !</p>	
+								<ul class="actions vertical">
+									<li><a href="#second" class="button big wide smooth-scroll-middle">About my work</a></li>
+								</ul>
 							</div>
 							<div class="image">
-									<!--<span class="image fit"><img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" /></span>-->
+									<img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" />
+							</div>
+						</section>
+
+				<!-- Three -->
+					<section class="banner style2 content-align-center image-position-center" id="second">
+							<div class="content">
+								<h2>My work</h2>
+								<p>At the beginning of the project, I proposed and worked on the flow of the game with an architecture allowing changes on anything without impacting what 
+									should not be impacted (example : changing how the mini games are played will not impact the global flow of a party in any way).
+									I've developed several mini games : a shooting stand, a hot-cold game with a distributor, playing as a CRS member with a stick and a shield, 
+									and lastly a game where you follow the instructions of the informatic service to repare your computer. The game with the distributor involved some problems 
+									with the fact that I wanted a precise point but since both the faces of </p>	
+								<ul class="actions vertical">
+									<li><a href="#third" class="button big wide smooth-scroll-middle">Example of a VR problem</a></li>
+								</ul>
+							</div>
+							<div class="image">
+									<img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" />
+							</div>
+						</section>
+
+				<!-- Four -->
+					<section class="banner style3 content-align-center image-position-center" id="third">
+							<div class="content">
+								<h2>Example of a VR problem</h2>
+								<p>The game with the distributor involved some problems : the fact that I wanted a precise point. 
+									Since both the colliders of the distributor and the objects you have in hand are kinematic, I had to make one of them a trigger.
+									The most obvious choice was the object held in the hand since it can also move other things. So I had to make the distributor's faces' colliders
+									as triggers. But then you don't have contact point, and I resolved it by projecting the closest point on the object on the distributor 
+									and this several times (like 10 times) to get a point close enough to the contact point. The thing is such problem occurs often with VR.</p>	
+								<ul class="actions vertical">
+									<li><a href="index.html" class="button big wide smooth-scroll-middle">Return to Home page</a></li>
+								</ul>
+							</div>
+							<div class="image">
 									<img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" />
 							</div>
 						</section>
 					
-						
-
-					<section class="banner style2 content-align-center image-position-center">
-							<div class="content">
-								<h2>Magna etiam feugiat</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>	
-								
-							</div>
-							<div class="image">
-									<!--<span class="image fit"><img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" /></span>-->
-									<img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" />
-							</div>
-						</section>
-					
-						
-
-					<section class="banner style3 content-align-center image-position-center">
-							<div class="content">
-								<h2>Magna etiam feugiat</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>	
-								
-							</div>
-							<div class="image">
-									<!--<span class="image fit"><img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" /></span>-->
-									<img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" />
-							</div>
-						</section>
-					
-						
-
-					<section class="banner style4 content-align-center image-position-center">
-							<div class="content">
-								<h2>Magna etiam feugiat</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>	
-								
-							</div>
-							<div class="image">
-									<!--<span class="image fit"><img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" /></span>-->
-									<img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" />
-							</div>
-						</section>
-					
-						
-
-					<section class="banner style5 content-align-center image-position-center">
-							<div class="content">
-								<h2>Magna etiam feugiat</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>	
-								
-							</div>
-							<div class="image">
-									<!--<span class="image fit"><img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" /></span>-->
-									<img src="images/gallery/CopAcademy/CopAcademyBanner.png" alt="" />
-							</div>
-						</section>
-
-				
 				<!-- Footer -->
 				<footer class="wrapper style1 align-center">
 						<div class="inner">
