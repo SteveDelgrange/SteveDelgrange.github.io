@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Shield Maidens</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112989666-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112989666-1');
+		</script>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right">
+						<div class="content">
+							<h1>YMCA</h1>
+							<p class="major">Twin stick shooter with puzzle and combat levels in local multiplayer with 3 players needed. Used Unity3D.
+								Made for a project as student of RUBIKA with me and another programmer, 4 game artists and 5 game designers of the same year in two weeks.
+								You are a maiden with a shield that can reflect attacks and you can bump things with it. Since you are a team of 3, you must help each other to 
+								solve the puzzles and defeat the enemies. Your only source of damage is every attack that is sent to you and if reflected correctly will 
+								deal damage or activate a receptacle.
+									</p>
+							<ul class="actions vertical">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">About the background</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/gallery/ShieldMaidens/Logo_color_Noir_squared.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="banner style3 content-align-center image-position-center" id="first">
+							<div class="content">
+								<h2>Background</h2>
+								<p>As a student of RUBIKA, we had to make a twin stick shooter game with some rules. It must be a cooperation game in local multiplayer, 
+									with no friendly-fire and try to do more than shooting at everything. The teams were decided by the teachers and fortunately my team was well-rounded.
+								</p>	
+								<ul class="actions vertical">
+									<li><a href="#second" class="button big wide smooth-scroll-middle">About my work on movements</a></li>
+								</ul>
+							</div>
+							<div class="image">
+									<img src="images/gallery/ShieldMaidens/Maidens_HD.jpg" alt="" />
+							</div>
+						</section>
+
+				<!-- Three -->
+					<section class="banner style1 orient-left content-align-left image-position-right" id="second">
+							<div class="content">
+								<h2>My work on movements</h2>
+								<p>Since we were 2 programmers, I began to work on the players' movements. I wanted to make something good and tested some things for the shield rotation.
+									Simply using the raw values of the right stick was not enough, since there was puzzle and precise puzzle, the player needed a smooth rotation that got slower the 
+									closer it is to the raw values. Before that, I also tried a button that would put the shield in a step-by-step mode with 45° each step but it was too easy 
+									to solve puzzles and there was no accuracy needed anymore so it was discarded. 
+								</p>	
+								<ul class="actions vertical">
+									<li><a href="#third" class="button big wide smooth-scroll-middle">About my work on macro</a></li>
+								</ul>
+							</div>
+							<div class="image">
+									<img src="images/gallery/ShieldMaidens/Screenshot.png" alt="" />
+							</div>
+						</section>
+						
+				<!-- Four -->
+					<section class="banner style3 content-align-center image-position-center" id="third">
+							<div class="content">
+								<h2>My work on macro</h2>
+								<p>For the game to work, some macro elements were needed. First, we wanted many levels but with no abrupt change of scenes. So I made a simple system of loading additive scene.
+									To accompany it, I made a camera that move from position to position with its boundaries forcing the player to move or die if they got squeezed by a wall. 
+									I also made a death system where a player remains as a ghost (with different physics and can bypass walls) and another player must bump him to revive him. If all players died, 
+									I made a checkpoint system that revives dead players when one alive reaches it and if all are dead they respawn at the last one.
+								</p>
+								<ul class="actions vertical">
+									<li><a href="#fourth" class="button big wide smooth-scroll-middle">About the problems</a></li>
+								</ul>
+							</div>
+							<div class="image">
+									<img src="images/gallery/ShieldMaidens/Keep_going_Splash_HD.jpg" alt="" />
+							</div>
+						</section>
+						
+				<!-- Five -->
+					<section class="banner style1 orient-left content-align-left image-position-right" id="fourth">
+							<div class="content">
+								<h2>Problems</h2>
+								<p> Everything went well until the last day. When we tried to build the game, it was meet with repeated failures but there was 2 majors ones right at the first level : 
+									a cube with a (0,0,0) scale that was failling the building and, since we wanted to use interfaces we used Odin but that was a mistake. When building, the list of interfaces
+									where randomly erased of their references, making the game impossible to advance. It was late at nigth and I tried to repair this by removing all list and replace them by
+									3 simple arguments since there was never more than 3 used. It worked but needed to go in all levels to repair links. That took 1-2 hours but we made it. Unfortunately, 
+									the game was not play tested and bugs are presents. But it made me realize that building early on is mandatory. 
+								</p>	
+								<ul class="actions vertical">
+										<li><a href="index.html" class="button big wide smooth-scroll-middle">Return to Home page</a></li>
+								</ul>
+							</div>
+							<div class="image">
+									<img src="images/gallery/ShieldMaidens/Monster_Splash_HD.png" alt="" />
+							</div>
+						</section>
+					
+				<!-- Footer -->
+				<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/steve-delgrange/" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:s.delgrange@rubika-edu.com" class="icon style2 fa-envelope"><span class="label">Email</span>s.delgrange@rubika-edu.com</a></li>
+								<li><p class="icon style2 fa-mobile"><span class="label">Cell Number</span>+33 6 31 41 75 21</p></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
