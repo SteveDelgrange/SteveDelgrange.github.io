@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Make The Hero</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112989666-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112989666-1');
+		</script>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-center">
+						<div class="content">
+							<h1>Make The Hero</h1>
+							<p class="major">VR solo game mixing RPG/Rogue-like/God-game and where the player creates items with its hands. Used Unity3D. Prototype created to pass the concept in 5th year at Rubika, in two weeks with a game artist and a game designer of the same year. The concept is that you are the god of crafting and you must defeat the demon lord from conquering a world under your management. You create and help a hero who is in the world, fighting and progressing, while you watch him. The hero gives you the loot and you can use these ressources to craft at your workshops. You can create equipment like sword and armor in the smithy, potions in the alchemy lab and magic scrolls in the scriptorium. You can then give them to the hero by placing the items in the corld near him. Since the hero is an AI, he will do as he wish and you have limited control on him.
+									</p>
+							<ul class="actions vertical">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">About the background</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/gallery/Make_The_Hero/logo_Make_the_Hero_tall.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="banner style3 content-align-center image-position-center" id="first">
+							<div class="content">
+								<h2>Background</h2>
+								<p>As a student of RUBIKA, in 4th year we must present concepts for the projects of 5th year. My concept was Make The Hero. To make it there, I had to make a prototype as a proof of concept. I was with a game designer and a game artist but they were mostly working on the presentation but I still got some models and textures for the prototype like the swords. It was very well received by the judges.
+								</p>	
+								<ul class="actions vertical">
+									<li><a href="#second" class="button big wide smooth-scroll-middle">About my work on Gameplay</a></li>
+								</ul>
+							</div>
+							<div class="image">
+									<img src="images/gallery/Make_The_Hero/screenshot0.png" alt="" />
+							</div>
+						</section>
+
+				<!-- Three -->
+					<section class="banner style1 content-align-center image-position-left" id="second">
+							<div class="content">
+								<h2>My work on Gameplay</h2>
+								<p>Since I had some days with a AI designer as a teacher, I spent the beginning of the prototype on the hero's AI. It is a state machine with simple states : travelling, fighting, searching and resting. When a item is put in the world by the player, the hero, if not fighting, will go collect the gift. This simple AI will be upgraded in the futur with personalities like brave, fearful, greedy. 
+									After the AI, I began the crafting in VR and the systems of fighting, stats and equipments. There's not yet decided things so they are very simple systems. It is a turn-based fighting system, only health and power as stats and only basic equipment but the health potion is working but the system need more to get potion with more effects and so on. I'm currently transitionning from components to scriptable objects to stock data.
+								</p>	
+								<ul class="actions vertical">
+									<li><a href="#third" class="button big wide smooth-scroll-middle">About the problems of VR</a></li>
+								</ul>
+							</div>
+							<div class="image">
+									<img src="images/gallery/Make_The_Hero/screenshot1.png" alt="" />
+							</div>
+						</section>
+						
+				<!-- Fourth -->
+					<section class="banner style3 content-align-center image-position-center" id="third">
+							<div class="content">
+								<h2>Problems of VR</h2>
+								<p> VR allows a more immersive experience, but is quite hard to get things working, especially when playing with collisions like when hammering on an anvil. I had to make a second collider that only interact with the hammer and has a fixed joint on the item in the making to get true collisions with a point of contact. The feedbacks are few and limited, haptic feedback is the only thing that can directly impact the player but they are quite weak and doesn't push in a direction. That's why, in my prototype, when hammering, there's haptic feedback, lound sounds and sparckles effects that creates a feeling of truly hammering. I also played a little with the possibility of moving things by their angles like the book's page and the foundry. 
+								</p>	
+								<ul class="actions vertical">
+										<li><a href="index.html" class="button big wide smooth-scroll-middle">Return to Home page</a></li>
+								</ul>
+							</div>
+							<div class="image">
+									<img src="images/gallery/Make_The_Hero/screenshot2.png" alt="" />
+							</div>
+						</section>
+					
+				<!-- Footer -->
+				<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/steve-delgrange/" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:s.delgrange@rubika-edu.com" class="icon style2 fa-envelope"><span class="label">Email</span>s.delgrange@rubika-edu.com</a></li>
+								<li><p class="icon style2 fa-mobile"><span class="label">Cell Number</span>+33 6 31 41 75 21</p></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
