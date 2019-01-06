@@ -1,4 +1,7 @@
-<!DOCTYPE HTML>
+
+<style>
+		html, body, #videodiv { height: 100% }
+</style>
 <!--
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -39,17 +42,22 @@
 						</div>
 					</section>
 
-					<div>
-						<video style="display:block; width: 70%; margin: 0 auto;" controls>
+					<div id="videodiv">
+						<iframe style="display:block; width: 95%; margin: 0 auto;"  height="100%" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
+							src="https://www.youtube.com/embed/NMf88UaW_z4">
+						</iframe>
+						<!--<video style="display:block; width: 70%; margin: 0 auto;" controls>
 							<source src="assets/videos/Make_the_hero_prototype.mp4" type="video/mp4">
 						  Your browser does not support the video tag.
-						</video> 
+						</video> -->
 					</div>
 				<!-- Two -->
 					<section class="banner style3 content-align-center image-position-center" id="first">
 							<div class="content">
 								<h2>Background</h2>
-								<p>As a student of RUBIKA, in 4th year we must present concepts for the projects of 5th year. My concept was Make The Hero. To make it there, I had to make a prototype as a proof of concept. I was with a game designer and a game artist but they were mostly working on the presentation but I still got some models and textures for the prototype like the swords. It was very well received by the judges.
+								<p>As a 4th year student of RUBIKA, I had to present a concept for the projects of 5th year. My concept was Make The Hero. 
+									To make it there, I had to make a prototype as a proof of concept. I was with a game designer and a game artist, who 
+									were mostly working on the presentation. I still received some models and textures for the prototype like the swords. It was a success.
 								</p>	
 								<ul class="actions vertical">
 									<li><a href="#second" class="button big wide smooth-scroll-middle">About my work on Gameplay</a></li>
@@ -64,11 +72,12 @@
 					<section class="banner style1 content-align-center image-position-left" id="second">
 							<div class="content">
 								<h2>My work on Gameplay</h2>
-								<p>Since I had some days with a AI designer as a teacher, I spent the beginning of the prototype on the hero's AI. It is a state machine with simple states : travelling, fighting, searching and resting. When a item is put in the world by the player, the hero, if not fighting, will go collect the gift. This simple AI will be upgraded in the futur with personalities like brave, fearful, greedy. 
-									After the AI, I began the crafting in VR and the systems of fighting, stats and equipments. There's not yet decided things so they are very simple systems. It is a turn-based fighting system, only health and power as stats and only basic equipment but the health potion is working but the system need more to get potion with more effects and so on. I'm currently transitionning from components to scriptable objects to stock data.
+								<p>As the game is in VR, most of the time is spent on interactions and fixing bugs (like hands disappear when destroying held objects). 
+									Make The Hero is also a RPG with crafting, so I created a RPG system with a simple AI and a crafting system with recipes based on steps such as "Hammered" or "Tempered".
+									Everything is still in a "Work In Progress" state, especially since we want to be sure to not implement something breaking everything else and so we go on carefully.
 								</p>	
 								<ul class="actions vertical">
-									<li><a href="#third" class="button big wide smooth-scroll-middle">About the problems of VR</a></li>
+									<li><a href="#third" class="button big wide smooth-scroll-middle">About the VR</a></li>
 								</ul>
 							</div>
 							<div class="image">
@@ -79,8 +88,10 @@
 				<!-- Fourth -->
 					<section class="banner style3 content-align-center image-position-center" id="third">
 							<div class="content">
-								<h2>Problems of VR</h2>
-								<p> VR allows a more immersive experience, but is quite hard to get things working, especially when playing with collisions like when hammering on an anvil. I had to make a second collider that only interact with the hammer and has a fixed joint on the item in the making to get true collisions with a point of contact. The feedbacks are few and limited, haptic feedback is the only thing that can directly impact the player but they are quite weak and doesn't push in a direction. That's why, in my prototype, when hammering, there's haptic feedback, lound sounds and sparckles effects that creates a feeling of truly hammering. I also played a little with the possibility of moving things by their angles like the book's page and the foundry. 
+								<h2>VR</h2>
+								<p>VR allows a more immersive experience, but is quite hard to get things working, especially when playing with collisions like when hammering on an anvil. 
+									That's why choosing the good tools is a priority. As such, we went from SteamVR v.1 to SteamVR v.2 and finally VRTK, an enormous toolbox for VR allowing 
+									us to export the game on more hardwares and with many cool features like object in hand colliding with things and not entering them.
 								</p>	
 								<ul class="actions vertical">
 										<li><a href="index.html" class="button big wide smooth-scroll-middle">Return to Home page</a></li>
